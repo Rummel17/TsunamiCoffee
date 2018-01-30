@@ -134,6 +134,11 @@ footer .container {
   .supporting img {
     display:none;
   }
+
+  nav {
+    font-size: 1.75em;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 470px) {
   .rating h1 {
@@ -145,9 +150,5 @@ footer .container {
   }
 footer nav {
     display: none;
-  }
-  nav {
-    font-size: 1.75em;
-    text-align: center;
   }
 }
