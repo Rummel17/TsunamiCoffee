@@ -129,9 +129,11 @@ footer .container {
   .main {
     padding-top: 0;
   }
-  nav {
+  li {
     font-size: 1.75em;
-    text-align: center;
+  }
+  nav {
+      text-align: center;
   }
 }
 @media only screen and (max-width: 700px){
