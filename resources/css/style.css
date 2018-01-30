@@ -47,7 +47,7 @@ nav {
 ul {
   list-style: none;
   margin: 0;
-  font-size: 1.25em;
+  font-size: 2em;
 }
 
 li {
@@ -129,11 +129,22 @@ footer .container {
   padding: 5em 0;
   color: white;
 }
+nav.footer {
+  width: 50%;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.footer ul, .footer li {
+  font-size: 1em;
+  display: inline;
+  text-decoration: none;
+}
 @media only screen and (max-width: 960px) {
   .main {
     padding-top: 0;
   }
-  ul {
+  .footer li {
     font-size: 1.75em;
   }
 }
