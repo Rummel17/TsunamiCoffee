@@ -149,7 +149,7 @@ footer .container {
     width: 100%;
     margin: 0;
   }
-footer nav {
+nav.footer {
     display: none;
   }
 }
