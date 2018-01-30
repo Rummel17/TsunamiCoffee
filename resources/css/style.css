@@ -143,7 +143,11 @@ footer .container {
     width: 100%;
     margin: 0;
   }
-nav {
+footer nav {
     display: none;
+  }
+  nav {
+    font-size: 1.75em;
+    text-align: center;
   }
 }
